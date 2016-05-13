@@ -40,5 +40,20 @@
 <p>//Nat full stack</p>
 
 <h4>Timeline</h4>
-<p>Bryce: Database by Monday</p>
+<p>Bryce: Database by Monday morning</p>
+<p>Nat: MVP</p>
+<p></p>
 
+<h4>User Stories</h4>
+
+<h5>Project Manager</h5>
+<p></p>
+
+<h5>Worker</h5>
+<p></p>
+
+<h5>Student</h5>
+<p>A group of students working on a project need to assign roles.</p>
+
+<h5>Client</h5>
+<p></p>
