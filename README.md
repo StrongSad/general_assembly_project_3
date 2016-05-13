@@ -10,11 +10,10 @@
 <p>To-do/delegation/Project Management</p>
 <p>Log-In</p>
 <p>File upload/sharing</p>
-<p>Kanban board</p>
 <p>P2P video sharing</p>
 
 <h4>//Feature creep</h4>
-<p>Socket chat or Slack API</p>
+<p>Socket chat</p>
 <p>Calendar API</p>
 <p>Apple Pay/Stripe/"fake money"</p>
 <p>LinkedIn Facebook Twitter login</p>
@@ -22,11 +21,16 @@
 <h4>//Tech used</h4>
 <p>Ruby on Rails</p>
 <p>Javascript</p>
-<p>Slack API</p>
+<p>JQuery</p>
+<p>Amazon S3</p>
 <p>Socket.io</p>
 <p>WebRTC</p>
-<p>Google Calendar API</p>
-<p>stripe</p>
+<p>PeerJS</p>
+<p>I18n</p>
+
+<p>//Gems: Devise</p>
+
+<p>//Front End Design Tools</p>
 
 
 <h4>Team Layout</h4>
@@ -36,3 +40,5 @@
 <p>//Nat full stack</p>
 
 <h4>Timeline</h4>
+<p>Bryce: Database by Monday</p>
+
