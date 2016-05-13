@@ -1,43 +1,38 @@
-# general_assembly_project_3
+<h1># general_assembly_project_3</h1>
 
-Project Ideas
+<h2>Project Ideas</h2>
 
-A github mashed up with Slack & a kanban board. Connectiviity and productivity that makes each of the different websites we used for this project available from one easy source
+<p>A github mashed up with Slack & a kanban board. Connectiviity and productivity that makes each of the different websites we used for this project available from one easy source.</p>
 
-//Group assignments
-Prime Master Bryce
-Github Master 
-Front End Jacob
-Back End Bryce
-Full Stack Dev Eunice, Nat
+<h4>//MVP</h4>
+<p>Create Project</p>
+<p>Build teams on page</p>
+<p>To-do/delegation/Project Management</p>
+<p>Log-In</p>
+<p>File upload/sharing</p>
+<p>Kanban board</p>
+<p>P2P video sharing</p>
 
-//MVP
-File upload/sharing
-To-do/delegation/Project Management
-Log-In
-Kanban board
-P2P video sharing
+<h4>//Feature creep</h4>
+<p>Socket chat or Slack API</p>
+<p>Calendar API</p>
+<p>Apple Pay/Stripe/"fake money"</p>
+<p>LinkedIn Facebook Twitter login</p>
 
-//Feature creep
-Socket chat or Slack API
-Calendar API
-Apple Pay/Stripe/"fake money"
-LinkedIn Facebook Twitter login
-
-//Tech used
-Ruby on Rails
-Javascript
-Slack API
-Socket.io
-WebRTC
-Google Calendar API
-stripe
+<h4>//Tech used</h4>
+<p>Ruby on Rails</p>
+<p>Javascript</p>
+<p>Slack API</p>
+<p>Socket.io</p>
+<p>WebRTC</p>
+<p>Google Calendar API</p>
+<p>stripe</p>
 
 
-//Jacob git/repo master and front end
+<h4>Team Layout</h4>
+<p>//Jacob git/repo master and front end</p>
+<p>//Bryce project manager and back end</p>
+<p>//Eunice video chat systems and full stack</p> 
+<p>//Nat full stack</p>
 
-//Bryce project manager and back end
-
-//Eunice video chat systems and full stack 
-
-//Nat full stack
+<h4>Timeline</h4>
