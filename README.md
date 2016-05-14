@@ -41,4 +41,9 @@
 
 <h4>Timeline</h4>
 <p>Bryce: Database by Monday</p>
+<p>Eunice:</p>
+<ul>
+	<li>Set up basic video chat</li>
+	<li>Research group video chatting</li>
+</ul>
 
