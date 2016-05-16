@@ -10,6 +10,9 @@
 // Read Sprockets README (https://github.com/rails/sprockets#sprockets-directives) for details
 // about supported directives.
 //
+//= require chat
+//= require private_pub
 //= require jquery
 //= require jquery_ujs
+//= require twitter/bootstrap
 //= require_tree .
