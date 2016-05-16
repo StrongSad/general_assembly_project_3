@@ -1,7 +1,7 @@
 Rails.application.routes.draw do
-  get 'home/index'
+  #get 'home/index'
 
-  root :to => "home#index"
+  root "home#index"
 
   get "video" => "video#index"
  
@@ -19,9 +19,9 @@ Rails.application.routes.draw do
 
   resources :members
   resources :messages
-  resources :conversations do
-    resources :chats
-  end  
+  resources :conversations 
+  resources :chats
+
 
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
