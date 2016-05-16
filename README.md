@@ -44,7 +44,6 @@
 <p>Eunice:</p>
 <ul>
 	<li>Set up basic video chat</li>
-	<li>Research group video chatting</li>
 </ul>
 
 <h4>User Stories</h4>
