@@ -3,6 +3,10 @@ class ConversationsController < ApplicationController
 
   layout false
 
+  def index
+    @users = User.all
+  end
+
   def create
     if Conversation.between(params[:sender_id], params[:recipient_id]).present?
       @conversation = Conversation.between(params[:sender_id], params[:recipient_id]).first
@@ -14,6 +18,7 @@ class ConversationsController < ApplicationController
   end
 
   def show 
+    @users = User.all
     @conversation = Conversation.find(params[:id])
     @receiver = interlocuter(@conversation)
     @messages = @conversation.messages
