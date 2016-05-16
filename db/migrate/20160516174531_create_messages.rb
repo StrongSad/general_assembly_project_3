@@ -3,6 +3,7 @@ class CreateMessages < ActiveRecord::Migration
     create_table :messages do |t|
       t.text :message
       t.references :user
+      t.references :conversation
 
       t.timestamps null: false
     end
