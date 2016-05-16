@@ -40,7 +40,7 @@
 <p>//Nat full stack</p>
 
 <h4>Timeline</h4>
-<p>Bryce: Database by Monday</p>
+<p>Bryce: Research Group Chat</p>
 <p>Eunice:</p>
 <ul>
 	<li>Set up basic video chat</li>

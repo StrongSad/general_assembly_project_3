@@ -1,4 +1,14 @@
 Rails.application.routes.draw do
+  get 'messages/new'
+
+  get 'messages/new'
+
+  get 'messages/create'
+
+  get 'messages/edit'
+
+  get 'messages/destroy'
+
   root 'video#index'
 
   # The priority is based upon order of creation: first created -> highest priority.
