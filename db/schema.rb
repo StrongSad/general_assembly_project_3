@@ -11,10 +11,21 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20160516204249) do
+ActiveRecord::Schema.define(version: 20160516215205) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
+
+  create_table "chats", force: :cascade do |t|
+    t.text     "body"
+    t.integer  "conversation_id"
+    t.integer  "user_id"
+    t.datetime "created_at",      null: false
+    t.datetime "updated_at",      null: false
+  end
+
+  add_index "chats", ["conversation_id"], name: "index_chats_on_conversation_id", using: :btree
+  add_index "chats", ["user_id"], name: "index_chats_on_user_id", using: :btree
 
   create_table "conversations", force: :cascade do |t|
     t.integer  "sender_id"
@@ -38,9 +49,8 @@ ActiveRecord::Schema.define(version: 20160516204249) do
   create_table "messages", force: :cascade do |t|
     t.text     "message"
     t.integer  "user_id"
-    t.integer  "conversation_id"
-    t.datetime "created_at",      null: false
-    t.datetime "updated_at",      null: false
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
   end
 
   create_table "sessions", force: :cascade do |t|
@@ -58,6 +68,7 @@ ActiveRecord::Schema.define(version: 20160516204249) do
     t.string   "name"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
+    t.string   "plan"
   end
 
   add_index "tenants", ["name"], name: "index_tenants_on_name", using: :btree
@@ -95,6 +106,8 @@ ActiveRecord::Schema.define(version: 20160516204249) do
   add_index "users", ["email"], name: "index_users_on_email", unique: true, using: :btree
   add_index "users", ["reset_password_token"], name: "index_users_on_reset_password_token", unique: true, using: :btree
 
+  add_foreign_key "chats", "conversations"
+  add_foreign_key "chats", "users"
   add_foreign_key "members", "tenants"
   add_foreign_key "members", "users"
   add_foreign_key "tenants", "tenants"
