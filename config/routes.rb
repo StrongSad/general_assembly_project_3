@@ -2,6 +2,8 @@ Rails.application.routes.draw do
   get 'home/index'
 
   root :to => "home#index"
+
+  get "video" => "video#index"
  
   # *MUST* come *BEFORE* devise's definitions (below)
   as :user do   
