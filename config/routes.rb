@@ -1,9 +1,12 @@
 Rails.application.routes.draw do
 
+ get "video" => "video#index"
+ 
   resources :members
   get 'home/index'
 
    root :to => "home#index"
+
 
     
   # *MUST* come *BEFORE* devise's definitions (below)
